@@ -10,5 +10,6 @@ a = Convert.ToInt32(s);
 checked      --(проверка на выполнение)
 {
     Console.WriteLine(a*a);
+    Console.WriteLine(Math.Pow(a,2)); //Возведение в степень
 }
 */
