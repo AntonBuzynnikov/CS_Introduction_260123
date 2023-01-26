@@ -4,6 +4,6 @@ double a = Double.Parse(System.Console.ReadLine());
 System.Console.WriteLine("Введите второе число: ");
 double b = Double.Parse(System.Console.ReadLine());
 if (a*a == b)
-    System.Console.WriteLine(b + " является квадратом "+ a);
+    System.Console.WriteLine($"{a}*{a}={b}");
 if (b*b == a)
     System.Console.WriteLine(a+" является квадратом "+b);
