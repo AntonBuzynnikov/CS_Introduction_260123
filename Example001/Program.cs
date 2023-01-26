@@ -7,5 +7,8 @@ string? s;
 s = Console.ReadLine();
 int a;
 a = Convert.ToInt32(s);
+checked      --(проверка на выполнение)
+{
 Console.WriteLine(a*a);
+}
 */
