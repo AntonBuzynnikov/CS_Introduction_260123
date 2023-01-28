@@ -1,9 +1,9 @@
-﻿/*9. Вывести на экран чётные числа от 1 до N
-*/
-int i=2;
-int N=10;
-while (i<=N)
-{
-    System.Console.WriteLine(i);
-    i = i+2;
-}
+﻿// 3. С клавиатуры вводятся два числа a и b. Найти максимальное из них.
+System.Console.Write("Введите число a: ");
+int a = Int32.Parse(System.Console.ReadLine());
+System.Console.Write("Введите число b: ");
+int b = Int32.Parse(System.Console.ReadLine());
+if (a > b)
+    System.Console.WriteLine("max = "+a);
+else
+    System.Console.WriteLine("max = "+b);
